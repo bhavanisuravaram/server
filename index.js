@@ -34,5 +34,8 @@ const server = new ApolloServer({ typeDefs, resolvers });
     console.log(`Server live at port ${port}`);
   });
 }
-
+function testing(){
+  return 0;
+}
+testing();
 startServer();
